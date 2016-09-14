@@ -35,7 +35,7 @@ that favors diversity of topics among the recommended documents.
 
 2. Main components
 -------------------
-1. TestMaryamTexts.m : the main Matlab source code which connects different modules 
+1. TestTexts.m : the main Matlab source code which connects different modules 
 2. readWord1.m : reads the input transcript, removes stop words and represents the transcript using topical information
 3. BeamSearchKeywordExtraction.m : diverse keyword extraction
 4. mainRD.m : diverse merging of lists of document results
@@ -57,7 +57,7 @@ W: the software writes the index of the keywords (position in the word list extr
 
 words: the software writes the keywords representing each implicit query in a file of this folder. For example, in the case of two implicit queries, two files will be generated with the names of "1" and "2", each representing the query number.
 
-2. Define the absolute path of the main folder (where results of each module are read or written) in TestMaryamTexts.m and the path of the code actually performing the search (see point 5, e.g. search.jar) also in TestMaryamTexts.m.
+2. Define the absolute path of the main folder (where results of each module are read or written) in TestTexts.m and the path of the code actually performing the search (see point 5, e.g. search.jar) also in TestTexts.m.
 
 3. Build the topic table and indicate its path in "readWord1.m".  The table is a (T+1)*N matrix which is represented by a .mat file (Matlab file, see provided example "datawiki1-100.mat"). T is the number of topics and N is the words in the dictionary. The first column of the matrix is made of words (strings). The other elements of the matrix are numbers. Each element represents the number of times a word is assigned to a topic over all trained documents. A (2+1)*3 matrix example is as follows:
 
