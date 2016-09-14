@@ -23,7 +23,7 @@ path='/path/to/Results';
 
 %Filein = input filename in path/transcripts folder e.g. Filein='temp1';
 
-function [] = TestMaryamTexts(path,Filein)
+function [] = TestTexts(path,Filein)
 % delete the folders contain words, retrieval results 
 delete([path '/words/*']);
  delete([path '/AllResults/*']);
