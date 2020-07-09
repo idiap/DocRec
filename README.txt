@@ -4,7 +4,7 @@ Software from the PhD thesis of Maryam Habibi (EPFL n. 6760)
 
 Maryam Habibi, Idiap Research Institute, October 2015
 
-M1habiby@gmail.com
+m1habiby@gmail.com
 apbelis@idiap.ch (advisor)
 
 
